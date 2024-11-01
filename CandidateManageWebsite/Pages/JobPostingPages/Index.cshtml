@@ -1,0 +1,22 @@
+﻿@page
+@model CandidateManageWebsite.Pages.JobPostingPages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table id="tblData" class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>JobPostingTitle</th>
+            <th>Description</th>
+            <th>PostedDate</th>
+        </tr>
+    </thead>
+</table>
+<script src="~/js/jobPosting.js"></script>

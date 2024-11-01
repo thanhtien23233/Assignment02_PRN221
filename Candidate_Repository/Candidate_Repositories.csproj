@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Candidate_BusinessObject\Candidate_BusinessObjects.csproj" />
+    <ProjectReference Include="..\Candidate_DAO\Candidate_DAO.csproj" />
+  </ItemGroup>
+
+</Project>

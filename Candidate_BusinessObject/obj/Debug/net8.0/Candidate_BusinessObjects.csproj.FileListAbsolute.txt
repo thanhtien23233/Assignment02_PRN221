@@ -1,0 +1,14 @@
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObjects.deps.json
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObjects.runtimeconfig.json
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObjects.dll
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObjects.pdb
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.AssemblyInfoInputs.cache
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.AssemblyInfo.cs
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.dll
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\refint\Candidate_BusinessObjects.dll
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.pdb
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObjects.genruntimeconfig.cache
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\Candidate_BusinessObject\obj\Debug\net8.0\ref\Candidate_BusinessObjects.dll

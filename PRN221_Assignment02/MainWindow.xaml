@@ -1,0 +1,21 @@
+﻿<Window x:Class="PRN221PE_FA22_TrialTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRN221PE_FA22_TrialTest"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txt_Email" HorizontalAlignment="Left"  VerticalContentAlignment="Center" Margin="423,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="332" Height="50" FontSize="24"/>
+        <Label x:Name="lbl_Email" Content="Email" HorizontalAlignment="Left" VerticalContentAlignment="Center" Height="50" Margin="333,127,0,0" VerticalAlignment="Top" Width="85" FontSize="24"/>
+        <Label x:Name="lbl_Passowrd" Content="Password" HorizontalAlignment="Center" VerticalContentAlignment="Center" Height="50" Margin="0,217,0,0" VerticalAlignment="Top" Width="133" FontSize="24"/>
+        <Button x:Name="btn_Login" Content="Login" HorizontalAlignment="Center" VerticalContentAlignment="Center" Margin="0,319,0,0" VerticalAlignment="Top" Height="40" Width="133" FontSize="24" Click="Btn_Login_Click"/>
+        <Button x:Name="btn_Cancel" Content="Cancel" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="622,319,0,0" VerticalAlignment="Top" Height="40" Width="133" FontSize="24" Click="Btn_Cancel_Click"/>
+        <PasswordBox x:Name="pb_Password" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="471,217,0,0" VerticalAlignment="Top" Width="284" Height="48" FontSize="24"/>
+        <Label x:Name="lbl_Login" Content="LOGIN" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" Width="304" FontSize="40" FontWeight="Bold" FontFamily="Arial"/>
+        <Label x:Name="lbl_candidate" Content="CANDIDATE" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Height="54" FontSize="40" FontWeight="Bold" Width="305" FontFamily="Bahnschrift"/>
+        <Label x:Name="lbl_management" Content="MANAGEMENT" HorizontalContentAlignment="Center" Margin="10,200,485,0" VerticalAlignment="Top" Height="54" FontSize="40" FontWeight="Bold" FontFamily="Bahnschrift"/>
+    </Grid>
+</Window>

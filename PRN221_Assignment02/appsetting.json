@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DbConnect": "Server=localhost;Database=MyDatabase;User Id=myusername;Password=mypassword;"
+  }
+}

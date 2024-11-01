@@ -1,0 +1,8 @@
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\PRN221_SE1704_TranThanhTien_SE172791.csproj.AssemblyReference.cache
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\CandidateProfileWindow.g.cs
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\ChoseWindow.g.cs
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\JobPostingWindow.g.cs
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\PRN221_SE1704_TranThanhTien_SE172791_MarkupCompile.cache
+C:\Users\thanhtien\Desktop\Assignment02_PRN221\PRN221_Assignment02\obj\Debug\net8.0-windows\PRN221_SE1704_TranThanhTien_SE172791_MarkupCompile.lref

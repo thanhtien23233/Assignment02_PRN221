@@ -1,0 +1,12 @@
+{
+  "DetailedErrors": true,
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DbConnect": "Server=localhost;Database=MyDatabase;User Id=myusername;Password=mypassword;"
+  }
+}
