@@ -24,32 +24,19 @@ namespace CandidateManageWebsite.Controllers
             return new JsonResult(new { data = jobPostings });
         }
 
-        //[HttpDelete("jobPosting")]
-        //public IActionResult DeleteJobPosting(string? id)
-        //{
-        //    var productToBeDeleted = _jobPostingService.GetJobPosting(id);
-        //    if (productToBeDeleted == null)
-        //    {
-        //        return new JsonResult(new { success = false, message = "error while deleting" });
-        //    }
+        [HttpDelete("jobPostings")]
+        public IActionResult DeleteProducts(string id)
+        {
+            var jobPostingToBeDeleted = _jobPostingService.GetJobPosting(id);
+            if (jobPostingToBeDeleted == null)
+            {
+                return new JsonResult(new { success = false, message = "error while deleting" });
+            }
 
-        //    //string productPath = Path.Combine("images", "products", $"product-{id}");
-        //    //string finalPath = Path.Combine(_webHostEnvironment.WebRootPath, productPath);
+            //delete product
+            _jobPostingService.DeleteJobPosting(jobPostingToBeDeleted);
+            return new JsonResult(new { success = true, message = "Delete Successful" });
+        }
 
-        //    if (Directory.Exists(finalPath))
-        //    {
-        //        string[] filePaths = Directory.GetFiles(finalPath);
-        //        foreach (string filePath in filePaths)
-        //        {
-        //            System.IO.File.Delete(filePath);
-        //        }
-        //        Directory.Delete(finalPath);
-        //    }
-
-
-        //    //delete product
-        //    _productService.DeleteProduct(productToBeDeleted);
-        //    return new JsonResult(new { success = true, message = "Delete Successful" });
-        //}
     }
 }

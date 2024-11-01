@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers();
 builder.Services.AddScoped<ICandidateService, CandidateService>();
 builder.Services.AddScoped<ICandidateRepo, CandidateRepo>();
 builder.Services.AddScoped<IJobPostingService, JobPostingService>();
@@ -29,10 +30,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession();
 app.UseAuthorization();
 
 app.MapRazorPages();
-
-app.UseSession();
+app.MapControllers();
 
 app.Run();

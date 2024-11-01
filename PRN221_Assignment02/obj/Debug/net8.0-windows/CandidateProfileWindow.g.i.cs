@@ -197,7 +197,8 @@ namespace PRN221PE_FA22_TrialTest {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN221_SE1704_TranThanhTien_SE172791;component/candidateprofilewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN221_SE1704_TranThanhTien_SE172791;V1.0.0.0;component/candidateprofilewindow.x" +
+                    "aml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CandidateProfileWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

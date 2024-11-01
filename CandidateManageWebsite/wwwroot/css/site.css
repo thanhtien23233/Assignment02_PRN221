@@ -20,3 +20,47 @@ html {
 body {
   margin-bottom: 60px;
 }
+h1 {
+    font-size: 2.5rem;
+    color: #007bff; 
+    text-align: left; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 1.8rem; /* Increase font size */
+    color: #ffffff; /* White color for text */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-brand:hover {
+        color: #e0f7ff; /* Light blue on hover */
+        text-decoration: none; /* Remove underline on hover */
+}
+
+    .navbar-brand:focus {
+        outline: none; /* Remove focus outline */
+        box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); /* Subtle glow effect */
+    }
+.nav-item {
+    margin: 0 15px; /* Horizontal spacing between nav items */
+}
+
+.nav-link {
+    font-size: 1.1rem; /* Slightly larger font size for links */
+    color: #007bff; /* Primary blue color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+    .nav-link:hover {
+        color: #0056b3; /* Darker blue on hover */
+        text-decoration: underline; /* Underline on hover for emphasis */
+    }
+
+    .nav-link.active {
+        font-weight: bold; /* Bold font for active link */
+        color: #0056b3; /* Darker blue for active link */
+    }

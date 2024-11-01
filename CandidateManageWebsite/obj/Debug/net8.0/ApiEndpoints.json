@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "CandidateManageWebsite.Controllers.DataTableController",
+    "Method": "GetProducts",
+    "RelativePath": "api/DataTable/get-jobPostings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CandidateManageWebsite.Controllers.DataTableController",
+    "Method": "DeleteProducts",
+    "RelativePath": "api/DataTable/jobPostings",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

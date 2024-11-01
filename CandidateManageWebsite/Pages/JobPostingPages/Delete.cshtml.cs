@@ -37,26 +37,26 @@ namespace CandidateManageWebsite.Pages.JobPostingPages
             }
             else
             {
-                JobPosting = jobposting;
+                _jobPostingService.DeleteJobPosting(jobposting);
             }
-            return Page();
+            return new JsonResult(new { success = true, message = "Delete Successful" });
         }
 
         public async Task<IActionResult> OnPostAsync(string id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            //if (string.IsNullOrEmpty(id))
+            //{
+            //    return NotFound(new { success = false, message = "Invalid ID" });
+            //}
 
-            var jobposting = _jobPostingService.GetJobPosting(id);
-            if (jobposting != null)
-            {
-                JobPosting = jobposting;
-                _jobPostingService.DeleteJobPosting(jobposting);
-            }
+            //var jobposting = _jobPostingService.GetJobPosting(id);
+            //if (jobposting == null)
+            //{
+            //    return NotFound(new { success = false, message = "Job posting not found" });
+            //}
 
-            return RedirectToPage("./Index");
+
+            return new JsonResult(new { success = true, message = "Post Successful" });
         }
     }
 }

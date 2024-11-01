@@ -5,18 +5,26 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Job Posting Management</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
 </p>
-<table id="tblData" class="table table-bordered table-striped" style="width:100%">
+<table id="tblData" class="table">
     <thead>
         <tr>
-            <th>JobPostingTitle</th>
-            <th>Description</th>
-            <th>PostedDate</th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobPosting[0].JobPostingTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobPosting[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobPosting[0].PostedDate)
+            </th>
+            <th></th>
         </tr>
     </thead>
+ 
 </table>
 <script src="~/js/jobPosting.js"></script>
