@@ -3,28 +3,10 @@
   "WorkspaceRootPath": "D:\\Non-Entertain\\Assignment02_PRN221\\PRN221_Assignment02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\choosepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\jobpostingpages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\jobpostingpages\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\jobpostingpages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\controllers\\datatablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\wwwroot\\js\\jobposting.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,115 +16,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\Login.cshtml",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\Login.cshtml",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T18:23:19.889Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwDsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-01T18:16:03.46Z",
+              "Title": "ChoosePage.cshtml",
+              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\ChoosePage.cshtml",
+              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\ChoosePage.cshtml",
+              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\ChoosePage.cshtml",
+              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\ChoosePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T09:02:08.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T17:39:50.906Z",
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\CandidateManageWebsite\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-02T09:01:29.155Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml.cs",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml.cs",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowCwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:27:35.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataTableController.cs",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Controllers\\DataTableController.cs",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Controllers\\DataTableController.cs",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Controllers\\DataTableController.cs",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\Controllers\\DataTableController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:21:35.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T17:16:58.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T17:12:35.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "jobPosting.js",
-              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
-              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
-              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
-              "RelativeToolTip": "..\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwC8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-01T17:12:38.463Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },

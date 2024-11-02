@@ -55,29 +55,39 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - CandidateManageWebsite - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script>
-        function logout() {
-            $.ajax({
-                url: '/Account/ClearSession',  // URL of the controller action
-                type: 'POST',
-                success: function () {
-                    // Redirect to home page or login page after session is cleared
-                    window.location.href = '/';
-                },
-                error: function () {
-                    alert('Logout failed. Please try again.');
-                }
-            });
-        }
-    </script>
 
 
+<script>
+    function logout() {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'Do you really want to log out?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, log me out!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '/api/authetication/logout', 
+                    type: 'POST',
+                    success: function () {
+                        window.location.href = '/';
+                    },
+                    error: function (xhr, status, error) {
+                        const errorMessage = xhr.responseJSON?.message || 'Logout failed. Please try again.';
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: errorMessage,
+                        });
+                    }
+                });
+            }
+        });
+    }
+</script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>

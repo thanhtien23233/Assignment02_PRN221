@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sD8T11N/u5VO8lV/O/pZRk8GiXRkk0dvqyJijbNROTY=",
+  "Hash": "w7DLc6nfgtCLJ+B4jbN2fFnvTJ8/yaDiuYiwS3Hrji4=",
   "Source": "CandidateManageWebsite",
   "BasePath": "_content/CandidateManageWebsite",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\candidateProfile.js",
+      "SourceId": "CandidateManageWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\",
+      "BasePath": "_content/CandidateManageWebsite",
+      "RelativePath": "js/candidateProfile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\candidateProfile.js"
     },
     {
       "Identity": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",

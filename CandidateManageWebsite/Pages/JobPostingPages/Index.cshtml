@@ -3,14 +3,30 @@
 
 @{
     ViewData["Title"] = "Index";
+    string? roleID = HttpContext.Session.GetString("RoleID");
+
+    if (string.IsNullOrEmpty(roleID) || (roleID != "1" && roleID != "2" && roleID != "3"))
+    {
+        Response.Redirect("/NoPermission");
+    }
 }
 
 <h1>Job Posting Management</h1>
 
-<p>
-    <a asp-page="Create" class="btn btn-primary">Create New</a>
-</p>
-<table id="tblData" class="table">
+@{
+    if (roleID == "1")
+    {
+        <p>
+            <a asp-page="Create" class="btn btn-primary">Add New Candidate Profile</a>
+        </p>
+    }
+}
+
+<script>
+    var roleId = '@roleID';
+</script>
+
+<table id="tblJobPosting" class="table">
     <thead>
         <tr>
             <th>
@@ -25,6 +41,6 @@
             <th></th>
         </tr>
     </thead>
- 
 </table>
+
 <script src="~/js/jobPosting.js"></script>

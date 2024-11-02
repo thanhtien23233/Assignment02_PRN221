@@ -1,0 +1,21 @@
+﻿@page
+@model CandidateManageWebsite.Pages.ChoosePage
+
+@{
+    ViewData["Title"] = "ChoosePage";
+    string? roleID = HttpContext.Session.GetString("RoleID");
+
+    if (string.IsNullOrEmpty(roleID) || (roleID != "1" && roleID != "2" && roleID != "3"))
+    {
+        Response.Redirect("/NoPermission");
+    }
+}
+<div class="text-center">
+    <h1>Management</h1>
+    <p>
+        <a asp-page="/CandidateProfilePages/Index" class="btn btn-primary">Candidate Profile Management</a>
+    </p>
+    <p>
+        <a asp-page="/JobPostingPages/Index" class="btn btn-primary">Job Posting Management</a>
+    </p>
+</div>

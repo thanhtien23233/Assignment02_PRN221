@@ -1,19 +1,28 @@
 ﻿@page
 @model CandidateManageWebsite.Pages.LoginModel
+
 @{
     ViewData["Title"] = "Login page";
-
 }
-<div class="text-center">
-    <h1 class="display-4">Login</h1>
-</div>
-<br />
-<div class="text-lg-center">
-    <form method="post"> 
-        <a>Email:</a>
-        <input type="email" name="txtEmail" />
-        <a>Password:</a> 
-        <input type="password" name="txtPassword" />
-        <input type="submit" name="btnLogin"/>
-    </form>
+
+<div class="form-container">
+    <div class="col-md-4">
+        <div class="text-center">
+            <h1 class="display-4">Login</h1>
+        </div>
+        <br />
+        <form method="post"> 
+            <div class="form-group">
+                <label for="txtEmail" class="text-primary">Email:</label>
+                <input type="email" id="txtEmail" name="txtEmail" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="txtPassword" class="text-primary">Password:</label> 
+                <input type="password" id="txtPassword" name="txtPassword" class="form-control" required />
+            </div>
+            <div class="form-group" id="btnLogin">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
 </div>

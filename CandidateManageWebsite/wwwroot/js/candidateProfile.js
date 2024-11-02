@@ -3,17 +3,19 @@
 });
 
 function LoadDataTable() {
-    dataTable = $('#tblJobPosting').DataTable({
+    dataTable = $('#tblCandidateProfile').DataTable({
         "ajax": {
-            url: '/api/datatable/get-jobPostings',
+            url: '/api/datatable/get-candidateProfiles',
             dataSrc: 'data'
         },
         "columns": [
-            { data: 'jobPostingTitle', "width": "20%" },
-            { data: 'description', "width": "55%" },
-            { data: 'postedDate', "width": "15%" },
+            { data: 'fullname', "width": "10%" },
+            { data: 'birthday', "width": "17%" },
+            { data: 'profileShortDescription', "width": "50%" },
+            { data: 'profileUrl', "width": "7%" },
+            { data: 'posting.jobPostingTitle', "width": "30%" },
             {
-                data: 'postingId',
+                data: 'candidateId',
                 "render": function (data) {
                     var editButton = '';
                     var deleteButton = '';
@@ -40,7 +42,8 @@ function LoadDataTable() {
         ]
     });
 }
-function Delete(postingId) {
+
+function Delete(candidateId) {
     Swal.fire({
         title: "Are you sure?",
         text: "You won't be able to revert this!",
@@ -52,7 +55,7 @@ function Delete(postingId) {
     }).then((result) => {
         if (result.isConfirmed) {
             $.ajax({
-                url: `/jobPosting?id=${postingId}`,
+                url: `/candidateProflie?id=${candidateId}`,
                 type: 'DELETE',
                 success: function (data) {
                     if (data.success) {

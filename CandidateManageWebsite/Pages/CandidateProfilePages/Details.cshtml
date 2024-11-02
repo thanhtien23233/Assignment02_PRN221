@@ -3,6 +3,11 @@
 
 @{
     ViewData["Title"] = "Details";
+    String RoleID = HttpContext.Session.GetString("RoleID");
+    if ((RoleID != "1") && (RoleID != "2"))
+    {
+        Response.Redirect("/NoPermission");
+    }
 }
 
 <h1>Details</h1>

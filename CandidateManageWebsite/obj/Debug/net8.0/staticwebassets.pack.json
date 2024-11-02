@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\candidateProfile.js",
+      "PackagePath": "staticwebassets\\js\\candidateProfile.js"
+    },
+    {
       "Id": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
       "PackagePath": "staticwebassets\\js\\jobPosting.js"
     },

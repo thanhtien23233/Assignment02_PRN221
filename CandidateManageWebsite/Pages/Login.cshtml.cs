@@ -30,7 +30,7 @@ namespace CandidateManageWebsite.Pages
                 && hraccount.Password.Equals(password))
             {
                 HttpContext.Session.SetString("RoleID",hraccount.MemberRole.ToString());
-                Response.Redirect("/CandidateProfilePages");
+                Response.Redirect("/ChoosePage");
             }
             else Response.Redirect("/Error");
         }

@@ -1,5 +1,11 @@
 ﻿@page
 @model CandidateManageWebsite.Pages.CandidateProfilePages.DeleteModel
 @{
+    ViewData["Title"] = "Delete";
+    String RoleID = HttpContext.Session.GetString("RoleID");
+    if ((RoleID != "1") && (RoleID != "2"))
+    {
+        Response.Redirect("/NoPermission");
+    }
 }
 
