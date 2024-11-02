@@ -20,7 +20,7 @@ function LoadDataTable() {
 
                     if (roleId === "1" || roleId === "2") {
                         editButton = ` 
-                            <a href="/CandidateProfilePages/Edit?id=${data}" class="btn btn-primary mx-2">
+                            <a href="/JobPostingPages/Edit?id=${data}" class="btn btn-primary mx-2">
                                 <i class="bi bi-pencil-square"></i> Edit
                             </a>`;
                         deleteButton = `
@@ -52,7 +52,7 @@ function Delete(postingId) {
     }).then((result) => {
         if (result.isConfirmed) {
             $.ajax({
-                url: `/jobPosting?id=${postingId}`,
+                url: `/api/datatable/jobPosting?id=${postingId}`,
                 type: 'DELETE',
                 success: function (data) {
                     if (data.success) {

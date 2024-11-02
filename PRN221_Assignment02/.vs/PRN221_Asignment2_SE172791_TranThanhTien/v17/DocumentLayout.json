@@ -3,7 +3,16 @@
   "WorkspaceRootPath": "D:\\Non-Entertain\\Assignment02_PRN221\\PRN221_Assignment02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\wwwroot\\js\\candidateprofile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\wwwroot\\js\\jobposting.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\choosepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\pages\\jobpostingpages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39F65D22-804A-4CFF-806D-E2BBBB098D5D}|..\\CandidateManageWebsite\\CandidateManageWebsite.csproj|d:\\non-entertain\\assignment02_prn221\\candidatemanagewebsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
@@ -16,11 +25,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
+              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
+              "RelativeToolTip": "..\\CandidateManageWebsite\\Pages\\JobPostingPages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T09:10:27.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jobPosting.js",
+              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
+              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
+              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
+              "RelativeToolTip": "..\\CandidateManageWebsite\\wwwroot\\js\\jobPosting.js",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-02T09:08:47.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "candidateProfile.js",
+              "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\candidateProfile.js",
+              "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\wwwroot\\js\\candidateProfile.js",
+              "ToolTip": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\js\\candidateProfile.js",
+              "RelativeToolTip": "..\\CandidateManageWebsite\\wwwroot\\js\\candidateProfile.js",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-02T09:08:46.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ChoosePage.cshtml",
               "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\Pages\\ChoosePage.cshtml",
               "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\Pages\\ChoosePage.cshtml",
@@ -33,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Non-Entertain\\Assignment02_PRN221\\CandidateManageWebsite\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "..\\CandidateManageWebsite\\wwwroot\\css\\site.css",
@@ -41,12 +93,7 @@
               "RelativeToolTip": "..\\CandidateManageWebsite\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAB0AAAAAAAAAAAAowEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-02T09:01:29.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-11-02T09:01:29.155Z"
             }
           ]
         },

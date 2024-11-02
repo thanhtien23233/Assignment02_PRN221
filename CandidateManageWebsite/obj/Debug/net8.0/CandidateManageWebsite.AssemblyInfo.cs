@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CandidateManageWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bf9c1ce42da34108e35fb7c1142f17853e0b574")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728aef46383f8c2a1d63486d748a8798752f5d6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CandidateManageWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CandidateManageWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

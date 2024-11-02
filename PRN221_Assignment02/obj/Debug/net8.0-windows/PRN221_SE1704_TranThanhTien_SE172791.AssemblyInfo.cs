@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN221_SE1704_TranThanhTien_SE172791")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4056f8b9375039538597e3081b1234fe10b4af6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728aef46383f8c2a1d63486d748a8798752f5d6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN221_SE1704_TranThanhTien_SE172791")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN221_SE1704_TranThanhTien_SE172791")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

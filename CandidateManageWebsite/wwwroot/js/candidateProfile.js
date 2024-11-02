@@ -55,7 +55,7 @@ function Delete(candidateId) {
     }).then((result) => {
         if (result.isConfirmed) {
             $.ajax({
-                url: `/candidateProflie?id=${candidateId}`,
+                url: `/api/datatable/candidateProflie?id=${candidateId}`,
                 type: 'DELETE',
                 success: function (data) {
                     if (data.success) {
